@@ -1,0 +1,52 @@
+body {
+  font-family: "poppins", sans-serif;
+  background: #a5b68d;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #c1cfa1;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.industry,
+.name,
+.description {
+  color: white;
+  letter-spacing: 5px;
+}
+
+.industry {
+  font-size: 30px;
+  font-weight: 700;
+  border-top: 0;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.hero-btn {
+  padding: 15px 30px;
+  color: #a5b68d;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
